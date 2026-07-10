@@ -12,14 +12,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class testcase1 {
 
-	/*	
+	
 	WebDriver driver;
 	
 
 	@BeforeMethod
 		public void setUp() {
 		WebDriverManager.chromedriver().setup();
-		//WebDriver driver = new ChromeDriver();
+		 driver = new ChromeDriver();
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().timeouts().scriptTimeout(Duration.ofMinutes(2));
@@ -31,6 +31,8 @@ public class testcase1 {
 	public void googleTitleTest() {
 		String title = driver.getTitle();
 		System.out.println(title);
+		System.out.println(title);
+		driver.get("http://www.google.com");
 	}
 	
 	@AfterMethod
@@ -38,7 +40,7 @@ public class testcase1 {
 		driver.quit();
 	}
 		
-*/
+
 	
 /*	
 	

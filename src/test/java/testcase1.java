@@ -12,7 +12,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class testcase1 {
 
-	
+	/*
+	//--------------------------------------------------------------------------------------
 	WebDriver driver;
 	
 
@@ -31,8 +32,7 @@ public class testcase1 {
 	public void googleTitleTest() {
 		String title = driver.getTitle();
 		System.out.println(title);
-		System.out.println(title);
-		driver.get("http://www.google.com");
+		
 	}
 	
 	@AfterMethod
@@ -40,10 +40,10 @@ public class testcase1 {
 		driver.quit();
 	}
 		
-
+*/
 	
-/*	
-	
+	/*
+	//---------------------------------------------------------------------------------------
 WebDriver driver;
 	
               //1  //4  //7
@@ -88,7 +88,7 @@ WebDriver driver;
 	
 */
 /*
-	
+	//------------------------------------------------------------------------------
 WebDriver driver;
 	
       
@@ -150,6 +150,7 @@ WebDriver driver;
 	}
 	*/
 	/*
+	//------------------------------------------------------------------------------------------
 WebDriver driver;
 	
       
@@ -210,7 +211,11 @@ WebDriver driver;
 		driver.quit();
 	}
 
+	
 	*/
+	//----------------------------------------------------------------------------------------
+	
+	
 	
 }
 

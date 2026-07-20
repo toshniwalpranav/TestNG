@@ -2,18 +2,24 @@
 
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Automation Suite">
+  <suite name="Automation Suite"> 
 
 
 
-    <test name="Login Test">
+   <test name="Login Test"> 
 
-        <classes>
-            <class name="LoginOrangeHrmF"/>
-            <class name="testcase3"/>
 
-        </classes>
+<parameter name="username" value="admin"/>
+<parameter name="password" value="admin123"/>
 
-    </test>
 
-</suite> 
+<classes>
+<class name="passparamater"/>
+
+</classes>
+
+
+</test>
+
+
+</suite>
